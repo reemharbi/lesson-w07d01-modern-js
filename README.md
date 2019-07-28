@@ -245,6 +245,7 @@ instructors.forEach(function(item){
 
     // For each friend in friends, print "Hi friendName!"
     // Write your solution here
+    friends.forEach(name => console.log(`Hi ${name}!`));
     ```
 2. Crazy Numbers
     ```js
@@ -254,6 +255,8 @@ instructors.forEach(function(item){
 
     // Sum all the numbers in nums and save the result in total
     // Write your solution here
+    nums.forEach(number => total= total+number);
+    console.log(total);
     ```
 3. Crazy number again!!
     ```js
@@ -266,6 +269,15 @@ instructors.forEach(function(item){
     // in totalNumbersUnder4000
     //
     // Write your solution here
+
+  stringNumbers.forEach(number => {
+   let intNumbers = Number(number);
+    if(intNumbers < 4000){
+        totalNumbersUnder4000 += intNumbers;
+    }
+});
+
+console.log(totalNumbersUnder4000);
     ```
 
 **Resources:**

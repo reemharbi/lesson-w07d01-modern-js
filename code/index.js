@@ -112,3 +112,91 @@ console.log('It works!');
 // const sayHello = name => console.log("Hello " + name);
   
 // sayHello("World");
+
+// --------------------------------------
+
+// Traditional for loop method
+
+// const instructors = ['Marc', 'AlAnoud', 'Usman'];
+
+// for (let i = 0; i < instructors.length; i++){
+//     console.log(instructors[i]);
+// }
+
+// --------------------------------------
+
+// forEach loop method
+
+// const instructors = ['Marc', 'AlAnoud', 'Usman'];
+
+// instructors.forEach(function(element){ 
+//     console.log(element);
+// });
+
+// --------------------------------------
+
+// forEach loop method also print method
+
+// const instructors = ['Marc', 'AlAnoud', 'Usman'];
+
+// instructors.forEach(function(element, index){ 
+//     console.log(element,index);
+// });
+
+// instructors.forEach(name => console.log(name));
+
+// instructors.forEach((name, i) => console.log(name , i));
+
+
+// --------------------------------------
+
+// Copy array
+
+// const instructors = ['Marc', 'AlAnoud', 'Usman'];
+// const instructorsCopy = [];
+
+// Traditional for loop method 
+
+// for (let i=0; i < instructors.length; i++){
+//     instructorsCopy.push(instructors[i]);
+// }
+// console.log(instructorsCopy);
+
+// forEach method
+
+// instructors.forEach(function(item){
+//     instructorsCopy.push(item);
+// });
+// console.log(instructorsCopy);
+
+// --------------------------------------
+
+// Lab 1
+
+// const friends = ["Mansour", "Munira", "Ahmed"];
+// friends.forEach(name => console.log(`Hi ${name}!`));
+
+// --------------------------------------
+
+// Lab 2
+
+// const nums = [103440, 3799.2663, 3.14159265359, 859494, 59439];
+// let total = 0;
+// nums.forEach(number => total= total+number);
+// console.log(total);
+
+// --------------------------------------
+
+// Lab 3
+
+const stringNumbers = ["103440", "3799.2663", "3.14159265359", "859494", "59439"];
+let totalNumbersUnder4000 = 0;
+
+stringNumbers.forEach(number => {
+   let intNumbers = Number(number);
+    if(intNumbers < 4000){
+        totalNumbersUnder4000 += intNumbers;
+    }
+});
+
+console.log(totalNumbersUnder4000);
