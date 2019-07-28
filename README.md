@@ -269,15 +269,15 @@ instructors.forEach(function(item){
     // in totalNumbersUnder4000
     //
     // Write your solution here
-
-  stringNumbers.forEach(number => {
-   let intNumbers = Number(number);
+   stringNumbers.forEach(number => {
+    let intNumbers = Number(number);
     if(intNumbers < 4000){
         totalNumbersUnder4000 += intNumbers;
     }
-});
+    });
 
-console.log(totalNumbersUnder4000);
+   console.log(totalNumbersUnder4000);
+
     ```
 
 **Resources:**
