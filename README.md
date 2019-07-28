@@ -134,7 +134,21 @@ function whoIsTheBestIA() {
 Your solution:
 
 ```js
+const addFive = num => 5 + num;
 
+console.log(addFive(3));
+
+const divide = (num1, num2) => num1 / num2;
+
+console.log(divide(10,2));
+
+  
+const whoIsTheBestIA = () => {
+    let iaName = 'Alanoud';
+    console.log(iaName);
+  }
+
+  whoIsTheBestIA();
 ```
 
 ##### Create a function called `fullName`
