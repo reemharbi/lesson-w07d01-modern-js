@@ -79,19 +79,36 @@ console.log('It works!');
 
 // --------------------------------------
 
+// Lab 1
 
-const addFive = num => 5 + num;
+// const addFive = num => 5 + num;
 
-console.log(addFive(3));
+// console.log(addFive(3));
 
-const divide = (num1, num2) => num1 / num2;
+// const divide = (num1, num2) => num1 / num2;
 
-console.log(divide(10,2));
+// console.log(divide(10,2));
 
   
-const whoIsTheBestIA = () => {
-    let iaName = 'Alanoud';
-    console.log(iaName);
-  }
+// const whoIsTheBestIA = () => {
+//     let iaName = 'Alanoud';
+//     console.log(iaName);
+//   }
 
-  whoIsTheBestIA();
+//   whoIsTheBestIA();
+
+// --------------------------------------
+
+// Lab 2
+
+// const fullName = (first,last) => `${first} ${last}`
+
+// console.log(fullName('Reem', 'AlHarbi'));
+
+// --------------------------------------
+
+// Lab 3
+
+// const sayHello = name => console.log("Hello " + name);
+  
+// sayHello("World");

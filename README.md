@@ -164,7 +164,9 @@ const whoIsTheBestIA = () => {
 Your solution:
 
 ```js
+const fullName = (first,last) => `${first} ${last}`
 
+console.log(fullName('Reem', 'AlHarbi'));
 ```
 
 ##### Turn `sayHello` into an arrow function
@@ -180,7 +182,9 @@ sayHello();
 Your solution:
 
 ```js
-
+const sayHello = name => console.log("Hello " + name);
+  
+  sayHello("World");
 ```
 
 **Resources:**
